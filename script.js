@@ -29,6 +29,7 @@ getWeatherApp = (city) => {
       wind_degrees.innerHTML = response.wind_degrees;
       sunrise.innerHTML = response.sunrise;
       console.log(response);
+      // 
     })
     .catch((err) => console.error(err));
 };
